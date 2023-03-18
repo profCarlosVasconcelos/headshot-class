@@ -1,0 +1,105 @@
+html,
+body {
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+nav {
+    padding: 5px 10px 15px 30px;
+    background-color: #151965;
+}
+
+/*Logotipo que está dentro do nav*/
+nav img {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*parametrização dos links do nav*/
+nav a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*parametrização do h1 do nav*/
+nav h1 {
+    display: inline-block;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+    color: white;
+    font-size: 35px;
+}
+
+nav ol {
+    float: right;
+    margin-top: 35px;
+    padding: 0px;
+
+}
+
+nav ol li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+main {
+    margin: 30px;
+}
+
+article h1 {
+    color: #32407b;
+    font-size: 45px;
+    text-transform: capitalize;
+    /*A propriedade text-transform especifica como capitalizar um texto de um elemento. Pode ser usado para que o texto apareça com todas as letras maiúsculas ou todas minúsculas, ou com cada palavra em maiúscula.*/
+    font-weight: bolder;
+}
+
+article p {
+    text-align: justify;
+    text-indent: 2.5cm;
+    word-spacing: 5px;
+    line-height: 1.4;
+    font-size: 18px
+}
+
+div {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    /*Deixar as divs lado a lado*/
+}
+
+#um {
+    margin-left: 20%;
+    display: inline-flex;
+    justify-content: center;
+    background-image: url("/img/operacao-cs.jpg");
+    background-size: cover;
+}
+
+#dois {
+    background-color: #A5C9CA;
+    margin-left: 10px;
+    display: inline-flex;
+    justify-content: center;
+    background-image: url("/img/opracao-cs_2.jpeg");
+    background-size: cover;
+}
+
+footer {
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    background-color: #151965;
+    height: 5em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Aqui, estamos definindo a posição do footer como fixa (fixed), que significa que ele sempre ficará na mesma posição, independentemente de onde a página for rolada. Além disso, estamos definindo a posição do footer como "bottom: 0" e "left: 0", o que fará com que ele fique sempre na parte inferior da página. Também estamos definindo a largura do footer como 100%, para que ele ocupe toda a largura da página, e estamos adicionando um fundo cinza claro, padding (10px) e alinhando o texto ao centro.
+Dessa forma, seu footer ficará sempre no final da página, independentemente do conteúdo da página ou do tamanho da tela do dispositivo.*/
